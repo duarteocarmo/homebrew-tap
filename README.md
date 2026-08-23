@@ -1,7 +1,8 @@
 # Duarte's Homebrew tap
 
-```sh
-brew install --cask duarteocarmo/tap/pi-helicopter
-```
+Pi Helicopter moved to the `pi-tools` repository.
 
-After installation, open Applications in Finder. Control-click Pi Helicopter, select Open, then confirm Open.
+```sh
+brew tap duarteocarmo/pi-tools https://github.com/duarteocarmo/pi-tools
+brew install --cask duarteocarmo/pi-tools/pi-helicopter
+```
